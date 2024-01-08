@@ -11,7 +11,7 @@ class PreparationsScreen extends StatelessWidget {
   PreparationsScreen({Key? key}) : super(key: key);
   late PreparationsCubit _cubit;
   final TextEditingController _ctrlFilter = TextEditingController();
-
+/// preparations screens
   @override
   Widget build(BuildContext context) {
     return BlocProvider(

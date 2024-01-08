@@ -9,7 +9,7 @@ import '../utils/variables.dart';
 class PreparationDetailScreen extends StatelessWidget {
   PreparationDetailScreen({Key? key, required this.preparationId})
       : super(key: key);
-///screerre dev
+/// detail screen master
   late PreparationDetailCubit _cubit;
   late int preparationId;
 
